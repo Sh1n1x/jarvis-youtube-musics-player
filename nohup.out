@@ -1,0 +1,12 @@
+[00465060] pulse audio output error: PulseAudio server connection failure: Connection refused
+[00487208] core interface error: no suitable interface module
+[003c9918] core libvlc error: interface "globalhotkeys,none" initialization failed
+[0047cd18] dummy interface: using the dummy interface module...
+[00465b80] core playlist: stopping playback
+[006fb060] pulse audio output error: PulseAudio server connection failure: Connection refused
+[0071d208] core interface error: no suitable interface module
+[0065f918] core libvlc error: interface "globalhotkeys,none" initialization failed
+[00712d18] dummy interface: using the dummy interface module...
+[006fbb80] core playlist: stopping playback
+[722dbe18] http access error: failed to read answer
+[722dbe18] http access error: seek failed
