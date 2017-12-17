@@ -26,9 +26,10 @@ rawurlencode() {
 }
 
 jv_pg_yt_ms_pl_search(){
+  DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 	local json="$(curl -s https://www.googleapis.com/youtube/v3/search\?maxResults=1\&q=$(rawurlencode "$1")\&type=video\&part=snippet\&key=$jv_pg_jv_yt_ms_pl_api)"
 	local tmp=$(echo "$json" | jq -r "$match.items[0].id.videoId")
 	say "Je lance la musique $(echo "$json" | jq -r "$match.items[0].snippet.title")"
   if pgrep vlc &> /dev/null ; then sudo killall vlc ; fi #Si il y en avait d autre de lancée
-	sh ~/jarvis/plugins_installed/jarvis-youtube-musics-player/launch_music.sh $tmp &>/dev/null &
+	sh $DIR/launch_music.sh $tmp &>/dev/null &
 }

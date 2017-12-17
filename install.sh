@@ -2,4 +2,4 @@
 # This file will be automatically sourced at the installation of your plugin
 # Use only if you need to perform changes on the user system such as installing software
 apt-get update
-apt-get install cvlc
+apt-get install vlc nohup
