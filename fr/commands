@@ -1,3 +1,5 @@
-*LANCE*MUSIQUE (*)*|*ECOUT*MUSIQUE DE (*)*|*ECOUT*CHANSON DE (*)*==echo "$(jv_pg_yt_ms_pl_search "(1)")"
+*LANCE*MUSIQUE (*)*==echo "$(jv_pg_yt_ms_pl_search "(1)")"
+*ECOUT*MUSIQUE DE (*)*==echo "$(jv_pg_yt_ms_pl_search "(1)")"
+*ECOUT*CHANSON DE (*)*==echo "$(jv_pg_yt_ms_pl_search "(1)")"
 STOP*MUSIQUE|ARRET*MUSIQUE== killall vlc; say "C'est arrêté !"
 
