@@ -18,6 +18,9 @@ La tâche est lancée en fond de sorte à pouvoir utiliser Jarvis durant la lect
 ## Configuration
 Pour utiliser le plugin il vous suffit d'ajouter la clé api dans le fichier config (+ activation dans Google Cloud Platform de Youtube Data api v3)
 
+## Prérequis
+Il vous faut installer VLC afin de pouvoir utiliser ce plugin.
+
 ## Usage
 ```
 moi: lance la musique les lacs du connemara
