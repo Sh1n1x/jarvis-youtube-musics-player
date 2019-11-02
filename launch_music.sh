@@ -1,1 +1,1 @@
-nohup mpv --no-video https://www.youtube.com/watch?v=$1
+nohup cvlc --no-video https://www.youtube.com/watch?v=$1
